@@ -29,3 +29,9 @@ body{
 .bg-img{
   max-width: 40%;
 }
+
+.jeremy{
+  height: calc(100% + 20px);
+  width: 285px;
+  margin-left: auto;
+}
