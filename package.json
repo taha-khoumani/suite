@@ -1,9 +1,12 @@
 {
+  "homepage": "http://tagopig.github.io/suite",
   "name": "suite",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
@@ -19,5 +22,8 @@
     "react-dom": "18.2.0",
     "tailwindcss": "3.3.2",
     "typescript": "5.0.4"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
   }
 }
